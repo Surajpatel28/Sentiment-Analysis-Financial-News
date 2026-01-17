@@ -34,10 +34,11 @@ def download_model_if_missing(filename, file_id):
             
         import gdown
         url = f'https://drive.google.com/uc?id={file_id}'
-        st.write(f"Downloading {filename} from Google Drive...")
+        # Use print instead of st.write to avoid cached UI replay
+        print(f"Downloading {filename} from Google Drive...")
         try:
              gdown.download(url, filename, quiet=False)
-             st.success(f"Downloaded {filename}!")
+             print(f"Downloaded {filename}!")
         except Exception as e:
              st.error(f"Failed to download {filename}: {e}")
              return False
