@@ -37,4 +37,4 @@ ENV/
 .streamlit/ secrets.toml
 
 # Large Files
-*.joblib
+bert_financial_model.joblib
