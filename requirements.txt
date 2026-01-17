@@ -1,0 +1,9 @@
+streamlit
+# Use CPU-only torch to reduce slug size on Streamlit Cloud
+--extra-index-url https://download.pytorch.org/whl/cpu
+torch
+joblib
+numpy
+scikit-learn
+transformers
+gdown
