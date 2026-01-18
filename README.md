@@ -3,6 +3,8 @@
 A comparative NLP project implementing **three sentiment analysis architectures** on financial news headlines: a statistical baseline, a custom deep learning model, and a Transformer-based model. The project emphasizes **data handling, class imbalance, model benchmarking, and deployment-ready artifacts**.
 
 ---
+## View Live Here
+[Financial News Sentiment Analysis App](https://sentiment-analysis-financial-news-by-suraj.streamlit.app/)
 
 ## Dataset
 
