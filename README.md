@@ -5,6 +5,7 @@ A comparative NLP project implementing **three sentiment analysis architectures*
 ---
 ## View Live Here
 [Financial News Sentiment Analysis App](https://sentiment-analysis-financial-news-by-suraj.streamlit.app/)
+- Most Probably when you open this link, the app will be sleeping. So just wake it up, its a sleep wizard so will take some time to wake.
 
 ## Dataset
 
